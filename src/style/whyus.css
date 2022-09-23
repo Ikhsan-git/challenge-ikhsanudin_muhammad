@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.whyus{
+    padding: 100px 0px;
+}
+
+.title-whyus h1{
+    height: 36px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.title-whyus h6{
+    width: 468px;
+    height: 20px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 40px;
+}
+
+.card-whyus{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-whyus{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.card{
+    width: 270px;
+}
+
+@media only screen and (max-width: 600px){
+    .card-whyus{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .title-whyus{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .title-whyus h1{
+        width: 328px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .whyus{
+        width: 100%;
+        padding: 50px 0px;
+    }
+
+    .title-whyus h6{
+        width: 328px;
+        height: 20px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card{
+        width: 100%;
+    }
+}
