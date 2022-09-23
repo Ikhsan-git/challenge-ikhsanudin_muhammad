@@ -1,38 +1,54 @@
-import { Row, Col} from "react-bootstrap"
+import { Card, Image} from "react-bootstrap"
+import complete from "../assets/image/icon_complete.png";
+import hrs from "../assets/image/icon_24hrs.png";
+import price from "../assets/image/icon_price.png";
+import profesional from "../assets/image/icon_professional.png";
 
 const Whyus = () =>{
     return(
-        <div>
+        <div className="whyus">
+            <div className="title-whyus">
             <h1>Why Us?</h1>
             <h6>Mengapa harus pilih Binar Car Rental?</h6>
-            {/* <div className="card-whyus">
-                <div className="card-list">
-                    <img alt="pict" />
-                    <h5>Mobil Lengkap</h5>
-                    <h6>Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan terawat</h6>
-                </div>
-                <div className="card-list">
-                    <img alt="pict" />
-                    <h5>Harga Murah</h5>
-                    <h6>Harga murah dan bersaing, bisa bandingkan harga kami dengan rental mobil lain</h6>
-                </div>
-                <div className="card-list">
-                    <img alt="pict" />
-                    <h5>Layanan 24 Jam</h5>
-                    <h6>Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga tersedia di akhir minggu</h6>
-                </div>
-                <div className="card-list">
-                    <img alt="pict" />
-                    <h5>Sopir Profesional</h5>
-                    <h6>Sopir yang profesional, berpengalaman, jujur, ramah dan selalu tepat waktu</h6>
-                </div>
-            </div> */}
-            <Row>
-                <Col><h1>test</h1></Col>
-                <Col><h1>test</h1></Col>
-                <Col><h1>test</h1></Col>
-                <Col><h1>test</h1></Col>
-            </Row>
+            </div>
+            <div className="card-whyus">
+            <Card className="card">
+                <Card.Body>
+                    <Image className="mb-3" width={30} src={complete} alt="complete"/>
+                    <Card.Subtitle className="mb-2">Mobil Lengkap</Card.Subtitle>
+                    <Card.Text>
+                    Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan terawat
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card>
+                <Card.Body>
+                    <Image className="mb-3" width={30} src={price} alt="complete"/>
+                    <Card.Subtitle className="mb-2">Harga Murah</Card.Subtitle>
+                    <Card.Text>
+                    Harga murah dan bersaing, bisa bandingkan harga kami dengan rental mobil lain
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card>
+                <Card.Body>
+                    <Image className="mb-3" width={30} src={hrs} alt="complete"/>
+                    <Card.Subtitle className="mb-2">Layanan 24 Jam</Card.Subtitle>
+                    <Card.Text>
+                    Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga tersedia di akhir minggu
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card>
+                <Card.Body>
+                    <Image className="mb-3" width={30} src={profesional} alt="complete"/>
+                    <Card.Subtitle className="mb-2">Sopir profesional</Card.Subtitle>
+                    <Card.Text>
+                    Sopir yang profesional, berpengalaman, jujur, ramah dan selalu tepat waktu
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            </div>
         </div>
     )
 }
