@@ -1,0 +1,20 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.cardslide{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.pd{
+    padding-left: 20px;
+}
+
+.testi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
