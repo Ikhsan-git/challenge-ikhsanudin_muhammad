@@ -4,17 +4,154 @@
     box-sizing: border-box;
 }
 
-.cardslide{
+.testimoni{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.kartu{
+    width: 95%;
     margin: 0 auto;
-    width: 70%;
 }
 
-.pd{
-    padding-left: 20px;
+.testimoni h2{
+    text-align: center;
+    padding: 50px;
+    height: 36px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
 }
 
-.testi{
+.testimoni h5{
+    width: 90%;
+    height: 40px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.lebar{
+    width: 619px;
+    height: 270px;
+    border-radius: 5px;
+    margin: 10px auto;
+    background: #F1F3FF;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.dsp{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dsp .gambar{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    margin: 10px 20px 20px 20px;
+}
+
+.dsp .bintang{
+    width: 100px;
+}
+
+.dsp .kel .textcard{
+    width: 415px;
+    height: 80px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.dsp .kel .date{
+    width: 415px;
+    height: 20px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+@media only screen and (max-width: 600px){
+
+    .testimoni{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .dsp{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .dsp .bintang{
+        width: 100px;
+        margin: 20px auto;
+    }
+
+    .lebar{
+        width: 320px;
+        height: 392px;
+        border-radius: 5px;
+        padding: 5px;
+        background: #F1F3FF;
+    }
+
+    .dsp .gambar{
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        margin: 10px 20px 0px 20px;
+    }
+
+    .dsp .kel .textcard{
+        width: 264px;
+        height: 140px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+
+    .dsp .kel .date{
+        width: 264px;
+        height: 20px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .testimoni h5{
+        width: 328px;
+        height: 40px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        margin: 10px auto;
+    }
 }
