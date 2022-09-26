@@ -1,0 +1,45 @@
+.fax{
+    width: 1168px;
+    margin: 25px auto;
+    display: flex;
+}
+
+.fax .fax-left{
+    width: 40%;
+}
+
+.fax .fax-right{
+    width: 60%;
+}
+
+.fax .fax-left h1{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.fax .fax-left p{
+    width: 360px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.fax .fax-right .fax-dropdown{
+    /* border: 1px solid black; */
+}
+
+.fax .fax-right .fax-dropdown-button{
+    border: 1px solid black;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.fax .fax-right .fax-dropdown-button .fax-dropdown-buttons{
+    width: 90%;
+    display: flex;
+}
