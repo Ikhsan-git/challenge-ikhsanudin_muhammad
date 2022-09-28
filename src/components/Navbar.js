@@ -1,33 +1,48 @@
+
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import Offcanvas from 'react-bootstrap/Offcanvas';
 
-function ColorSchemesExample() {
+function OffcanvasExample() {
   return (
     <>
-    <nav classname="navbar navbar-expand-lg">
-      <div class="container justify-content-space-around">
-          <a class="navbar-brand" href="#">Navbar</a>
-          {/* <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button> */}
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-            </ul>
-        </div>
-      </div>
-    </nav>
-      </>
+      {['lg'].map((expand) => (
+        <Navbar key={expand} expand={expand} className="mb-3">
+          <Container>
+            <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand>
+
+            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+
+            <Navbar.Offcanvas
+              id={`offcanvasNavbar-expand-${expand}`}
+              aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
+              placement="end"
+            >
+
+              <Offcanvas.Header closeButton>
+                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
+                  Offcanvas
+                </Offcanvas.Title>
+              </Offcanvas.Header>
+
+              <Offcanvas.Body>
+                <Nav className=" link justify-content-end gap-4 me-5 flex-grow-1 pe-3">
+                  <Nav.Link className='text-black' href="#action1">Our Service</Nav.Link>
+                  <Nav.Link className='text-black' href="#action2">Why US</Nav.Link>
+                  <Nav.Link className='text-black' href="#action2">Testimonial</Nav.Link>
+                  <Nav.Link className='text-black' href="#action2">FAQ</Nav.Link>
+                </Nav>
+              </Offcanvas.Body>
+
+            </Navbar.Offcanvas>
+
+
+          </Container>
+        </Navbar>
+      ))}
+    </>
   );
 }
 
-export default ColorSchemesExample;
+export default OffcanvasExample;
