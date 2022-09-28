@@ -1,5 +1,5 @@
 import './App.css';
-// import ColorSchemesExample from './components/Navbar';
+import OffcanvasExample from './components/Navbar';
 import Home from './components/Home';
 import Ourservice from './components/ourservice';
 import Whyus from './components/Whyus';
@@ -19,7 +19,7 @@ function App() {
   return (
     <div>
       <div className='home'>
-        {/* <ColorSchemesExample /> */}
+        <OffcanvasExample />
         <Home />
       </div>
         <Ourservice />
