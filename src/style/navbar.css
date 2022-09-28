@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-.link{
-    padding-right: 50px;
-    gap: 30px;
+.nav{
+    background-color: #F1F3FF;
 }
