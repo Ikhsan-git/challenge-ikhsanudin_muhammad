@@ -5,11 +5,11 @@
 }
 
 .fax .fax-left{
-    width: 40%;
+    width: 50%;
 }
 
 .fax .fax-right{
-    width: 60%;
+    width: 50%;
 }
 
 .fax .fax-left h1{
@@ -29,9 +29,7 @@
     line-height: 20px;
 }
 
-.fax .fax-right .fax-dropdown{
-    /* border: 1px solid black; */
-}
+
 
 .fax .fax-right .fax-dropdown-button{
     border: 1px solid black;
@@ -42,4 +40,49 @@
 .fax .fax-right .fax-dropdown-button .fax-dropdown-buttons{
     width: 90%;
     display: flex;
+}
+
+@media only screen and (max-width: 600px){
+
+    .fax{
+        width: 80%;
+        margin: 25px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fax .fax-left h1{
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .fax .fax-left p{
+        width: 80%;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .fax .fax-left{
+        width: 100%;
+    }
+    
+    .fax .fax-right{
+        width: 100%;
+    }
+
+    .fax .fax-right{
+        margin: 10px auto;
+    }
+
 }
