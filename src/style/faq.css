@@ -1,0 +1,88 @@
+.faq{
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+}
+
+.faq .faq-left{
+    width: 50%;
+}
+
+.faq .faq-right{
+    width: 50%;
+}
+
+.faq .faq-left h1{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.faq .faq-left p{
+    width: 360px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+
+.faq .faq-right .faq-dropdown-button{
+    border: 1px solid black;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.faq .faq-right .faq-dropdown-button .faq-dropdown-buttons{
+    width: 90%;
+    display: flex;
+}
+
+@media only screen and (max-width: 600px){
+
+    .faq{
+        width: 80%;
+        margin: 25px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .faq .faq-left h1{
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .faq .faq-left p{
+        width: 80%;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .faq .faq-left{
+        width: 100%;
+    }
+    
+    .faq .faq-right{
+        width: 100%;
+    }
+
+    .faq .faq-right{
+        margin: 10px auto;
+    }
+
+}
