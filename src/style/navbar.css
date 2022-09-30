@@ -7,3 +7,13 @@
 .nav{
     background-color: #F1F3FF;
 }
+
+.half-navbar{
+    width: 50% !important;
+}
+
+.navbar-logo{
+    width: 100px;
+    height: 34px;
+    background: #0D28A6;
+}

@@ -5,9 +5,9 @@
 }
 
 .banner .banner-cards{
-    width: 1168px;
+    width: 80%;
     height: 326px;;
-    margin: 50px auto;
+    margin: 100px auto;
     background: #0D28A6;
     display: flex;
     justify-content: center;

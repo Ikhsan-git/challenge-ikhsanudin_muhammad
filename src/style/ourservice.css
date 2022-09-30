@@ -5,11 +5,11 @@
 }
 
 .our{
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 50px auto;
+    margin: 100px auto;
 }
 
 
