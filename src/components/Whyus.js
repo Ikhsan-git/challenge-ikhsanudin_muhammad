@@ -6,7 +6,7 @@ import profesional from "../assets/image/icon_professional.png";
 
 const Whyus = () =>{
     return(
-        <div className="whyus">
+        <div className="whyus" id="whyus">
             <div className="title-whyus">
             <h1>Why Us?</h1>
             <h6>Mengapa harus pilih Binar Car Rental?</h6>
