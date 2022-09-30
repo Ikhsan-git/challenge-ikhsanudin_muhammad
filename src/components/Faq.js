@@ -5,7 +5,7 @@ import Dropdown from 'react-bootstrap/Dropdown';
 
 const Faq =() =>{
     return(
-        <div className="faq">
+        <div className="faq" id='faq'>
             <div className="faq-left">
                 <h1>Frequently Asked Question</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
