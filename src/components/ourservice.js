@@ -3,7 +3,7 @@ import Ellipse from "../assets/image/Group 53.png";
 
 const Ourservice = () =>{
     return(
-        <div className="our">
+        <div className="our" id="our">
             <img className="img-service" src={img_service} alt="service" />
 
             <div className="right-service">
