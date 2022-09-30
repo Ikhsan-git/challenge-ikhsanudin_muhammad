@@ -7,6 +7,7 @@ import Testimoni from './components/Testimoni';
 import CTAbanner from './components/CTAbanner';
 import Footer from './components/Footer';
 import Fax from './components/Faq';
+import Carimobil from './components/Carimobil';
 import './style/navbar.css';
 import './style/home.css';
 import './style/ourservice.css';
