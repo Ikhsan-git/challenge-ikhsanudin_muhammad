@@ -1,0 +1,84 @@
+ footer{
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+ }
+
+ footer .footer-nav{
+    display: flex;
+    flex-direction: column; 
+    padding-right: 100px;
+ }
+
+ footer .footer-nav a{
+   text-decoration: none;
+   color: black;
+   width: 79px;
+   height: 20px;
+   font-family: 'Arial';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   padding-bottom: 30px;
+ }
+
+ .footer-data{
+   padding-right: 100px;
+ }
+
+ footer .footer-data p{
+   width: 268px;
+   font-family: 'Arial';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 20px;
+ }
+
+ footer .footer-sosmed{
+   padding-right: 100px;
+ }
+
+ footer .footer-sosmed p{
+   width: 268px;
+   height: 20px;
+   font-family: 'Arial';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 20px;
+ }
+
+ footer .footer-sosmed img{
+   width: 32px;
+   height: 32px;
+   margin-right: 10px;
+ }
+
+ footer .footer-brand p{
+   width: 268px;
+   height: 20px;
+   font-family: 'Arial';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 20px;
+ }
+
+ footer .footer-brand .footer-logo{
+   width: 100px;
+   height: 34px;
+   background: #0D28A6;
+ }
+
+ @media only screen and (max-width: 600px){
+   footer{
+      width: 80%;
+      margin: 100px auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+   }
+
+ }
