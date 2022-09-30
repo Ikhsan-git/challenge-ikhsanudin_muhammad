@@ -45,7 +45,7 @@ export default class Responsive extends Component {
       ]
     };
     return (
-      <div className="testimoni">
+      <div className="testimoni" id="testimonial">
         <h2> Testimonial </h2>
         <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</h5>
         <Slider className="kartu" {...settings}>
