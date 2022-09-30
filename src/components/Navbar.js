@@ -28,10 +28,10 @@ function OffcanvasExample() {
 
               <Offcanvas.Body>
                 <Nav className=" link justify-content-end gap-4 me-5 flex-grow-1 pe-3">
-                  <Nav.Link className='text-black' href="#action1">Our Service</Nav.Link>
-                  <Nav.Link className='text-black' href="#action2">Why US</Nav.Link>
-                  <Nav.Link className='text-black' href="#action2">Testimonial</Nav.Link>
-                  <Nav.Link className='text-black' href="#action2">FAQ</Nav.Link>
+                  <Nav.Link className='text-black' href="#our">Our Service</Nav.Link>
+                  <Nav.Link className='text-black' href="#whyus">Why US</Nav.Link>
+                  <Nav.Link className='text-black' href="#testimonial">Testimonial</Nav.Link>
+                  <Nav.Link className='text-black' href="#faq">FAQ</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
 
