@@ -8,6 +8,7 @@ import CTAbanner from './components/CTAbanner';
 import Footer from './components/Footer';
 import Faq from './components/Faq';
 import Carimobil from './components/Carimobil';
+import Hasilcari from './components/Hasilcari';
 import './style/navbar.css';
 import './style/home.css';
 import './style/ourservice.css';
@@ -16,11 +17,12 @@ import './style/testimoni.css';
 import './style/CTAbanner.css';
 import './style/faq.css';
 import './style/footer.css';
+import './style/carimobil.css';
+import './style/hasilcari.css';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 
 function App() {
@@ -36,6 +38,8 @@ function App() {
             <Route path="/" exact component={Testimoni} />
             <Route path="/" exact component={CTAbanner} />
             <Route path="/" exact component={Faq} />
+            <Route path="/hasilcari" exact component={Hasilcari} />
+
         </div>
         </Switch>
         <Footer />
