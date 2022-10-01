@@ -9,7 +9,7 @@ function OffcanvasExample() {
   return (
     <>
       {['lg'].map((expand) => (
-        <Navbar key={expand} expand={expand} className="p-4 nav">
+        <Navbar key={expand} expand={expand} className="p-2 nav">
           <Container>
             <Navbar.Brand className='navbar-logo'><Link to="/">BCR</Link></Navbar.Brand>
 
