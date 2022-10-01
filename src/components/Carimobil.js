@@ -6,7 +6,7 @@ const Carimobil = () =>{
             <div className="wrap-intro">
                 <h1>Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h1>
                 <p className="deskripsi-home">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu
-                    untuk sewa mobil selama 24jam.
+                    untuk sewa mobil selama 24jam..
                 </p>
             </div>
         </div>
