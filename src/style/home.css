@@ -48,6 +48,16 @@
     line-height: 20px;
 }
 
+.left .btnsewa{
+    background-color: #5CB85F;
+    color: white;
+}
+
+.left .btnsewa:hover{
+    background-color: #6bd46f !important;
+    color: white !important;
+}
+
 @media only screen and (max-width: 600px){
     .hal-awal{
         display: flex;
