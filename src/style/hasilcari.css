@@ -113,3 +113,96 @@
     color: #0D28A6 !important;
     border: 1px solid #0D28A6 !important;
 }
+
+@media only screen and (max-width: 600px){
+    .align-hasil{
+        width: 280px;
+        box-shadow: 1px 1px 5px 1px grey;
+        border-radius: 5px;
+        position: absolute;
+        top: 80px;
+        left: 57px;
+        background-color: white;
+        padding: 10px 0px;
+        padding: 10px;
+    }
+
+    .hasil-cari{
+        width: 280px;
+        margin: 0 auto;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .hasil-cari .card-hasil-mobil{
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 1px 1px 3px 1px grey;
+        padding: 20px 0px;
+        
+    }
+    .hasil-cari .card-hasil-mobil .hasil-card .nama-mobil{
+        width: 280px;
+        height: 20px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .hasil-cari .card-hasil-mobil .hasil-card .category-mobil{
+        width: 280px;
+        height: 20px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        margin: 10px 0;
+    }
+    
+    .hasil-cari .card-hasil-mobil .hasil-card .price-mobil{
+        width: 280px;
+        height: 24px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 10px 0;
+    }
+    
+    .hasil-cari .card-hasil-mobil .hasil-card .deskripsi-mobil{
+        width: 280px;
+        height: 60px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        margin: 40px 0;
+    }
+
+    .form .form-button2{
+        width: 30%;
+        margin-left: 13px;
+        height: 40px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #0D28A6;
+        border: 1px solid #0D28A6;
+        border-radius: 2px;
+        margin-top: 5px;
+    }
+}
