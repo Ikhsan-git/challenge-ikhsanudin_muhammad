@@ -12,6 +12,16 @@
     border-radius: 5px;
 }
 
+.detail-card-kiri p{
+    width: 90%;
+    height: 20px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
 .detail-card-kanan{
     width: 35%;
     box-shadow: 1px 1px 3px 1px grey;
