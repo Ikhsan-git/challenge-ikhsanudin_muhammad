@@ -58,7 +58,7 @@ const Appss = () =>{
         <div className='form-input'>
         <input name='mobil' type="text" placeholder='Search...' className='search' onChange={(e) => setQuery(e.target.value)}/>
         <Select name='mobil'placeholder='Masukan Kapasitas Mobil' className='form-category' options={category}></Select>
-        <Select name='mobil'placeh older='Masukan Harga Sewa per Hari' className='form-price' options={price}></Select>
+        <Select name='mobil'placeholder='Masukan Harga Sewa per Hari' className='form-price' options={price}></Select>
         <Select name='mobil' placeholder='Disewa' className='form-status' options={status}></Select>
         <Button name='mobil' variant="none"className='form-button2'>Edit</Button>
         </div>
