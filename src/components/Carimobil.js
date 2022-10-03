@@ -3,21 +3,21 @@ import Select from 'react-select'
 import img_car from "../assets/image/img_car.png"
 const Carimobil = () =>{
     const category = [
-        { value: 'chocolate', label: 'Chocolate' },
-        { value: 'strawberry', label: 'Strawberry' },
-        { value: 'vanilla', label: 'Vanilla' }
+        { value: '2 - 4 Orang', label: '2 - 4 Orang' },
+        { value: '4 - 6 Orang', label: '4 - 6 Orang' },
+        { value: '6 - 8 Orang', label: '6 - 8 Orang' }
       ]
 
       const price = [
-        { value: 'chocolate', label: 'Chocolate' },
-        { value: 'strawberry', label: 'Strawberry' },
-        { value: 'vanilla', label: 'Vanilla' }
+        { value: '< Rp. 400.000', label: '< Rp. 400.000' },
+        { value: 'Rp. 400.000 - Rp. 600.000', label: 'Rp. 400.000 - Rp. 600.000' },
+        { value: '< Rp. 400.000', label: '< Rp. 400.000' }
       ]
 
       const status = [
-        { value: 'chocolate', label: 'Chocolate' },
-        { value: 'strawberry', label: 'Strawberry' },
-        { value: 'vanilla', label: 'Vanilla' }
+        { value: 'Sewa', label: 'Sewa' },
+        { value: 'Disewakan', label: 'Disewakan' },
+        
       ]
     return(
     <div>
