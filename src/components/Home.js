@@ -10,7 +10,7 @@ const Home = () =>{
                     <p className="deskripsi-home">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu
                         untuk sewa mobil selama 24jam.
                     </p>
-                    <Button className="bg-success btnsewa" onClick= {(e) => {e.preventDefault(window.location.href='/carimobil')}}
+                    <Button variant="none" className="btnsewa" onClick= {(e) => {e.preventDefault(window.location.href='/carimobil')}}
 > Mulai Sewa Mobil </Button>
                 </div>
             </div>
