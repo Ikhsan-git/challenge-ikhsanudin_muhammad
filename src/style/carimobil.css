@@ -1,24 +1,59 @@
-.form{
-    display: flex;
-    width: 80%;
-    height: 100px;
-    justify-content: space-around;
-    align-items: center;
+.form .pencarian{
+    width: 88px;
+    height: 20px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 15px;
+}
+
+.align{
+    width: 1047px;
     box-shadow: 1px 1px 5px 1px grey;;
     border-radius: 5px;
     position: absolute;
+    top: 420px;
+    left: 148px;
     background-color: white;
-    top: 450px;
-    left: 130px;
+    padding: 10px 0px;
+}
+
+.align .form .form-input{
+    width: 100%;
 }
 
 .section-form{
     height: 100px;
 }
 
+.form .title-form{
+    display: flex;
+    justify-content: space-around;
+}
+
+.form .form-input{
+    display: flex;
+    justify-content: space-around;
+}
+
+.form .title-form p{
+    width: 19%;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.form .title-form .clear{
+    width: 10%;
+}
+
 .form .search{
     width: 19%;
-    height: 40px;
+    height: 38px;
     border: 1px solid rgb(196, 193, 193);
     border-radius: 3px;
     padding-left: 10px;
