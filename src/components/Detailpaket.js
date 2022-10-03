@@ -43,7 +43,7 @@ const Detailpaket = () => {
         <div className='form-input' disabled>
         <input name='mobil' type="text" placeholder='Search...' className='search' onChange={(e) => setQuery(e.target.value)} disabled/>
         <Select name='mobil'placeholder='Masukan Kapasitas Mobil' className='form-category' options={category} disabled ></Select>
-        <Select name='mobil'placeh older='Masukan Harga Sewa per Hari' className='form-price' options={price} disabled ></Select>
+        <Select name='mobil'placeholder='Masukan Harga Sewa per Hari' className='form-price' options={price} disabled ></Select>
         <Select name='mobil' placeholder='Disewa' className='form-status'  options={status} disabled></Select>
         <Button name='mobil' variant="none"className='form-button2' disabled>Edit</Button>
         </div>
@@ -83,10 +83,13 @@ const Detailpaket = () => {
             </div>
             <div className='detail-card-kanan'>
                 <div className='detail-card-mobil'>
-                    <img alt="detail mobil"/>
+                    <img className='detail-mobil' alt="detail mobil"/>
                     <div className='detail-nama-mobil'>nama mobil</div>
                     <div className='detail-katagori-mobil'>kategori</div>
-                    <div className='detail-harga-mobil'>harga</div>
+                    <div className='detail-harga-mobil'>
+                        <div className='total'>Total</div>
+                        <div className='total-price'>Rp. 0</div>
+                    </div>
 
                 </div>
             </div>
