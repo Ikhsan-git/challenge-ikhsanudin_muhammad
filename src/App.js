@@ -43,7 +43,6 @@ function App() {
             <Route path="/" exact component={Faq} />
             <Route path="/hasilcari" exact component={Hasilcari} />
             <Route path="/detailpaket" exact component={Detailpaket} />
-
         </div>
         </Switch>
         <Footer />
