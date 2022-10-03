@@ -22,9 +22,55 @@
     line-height: 20px;
 }
 
+.detail-card-kiri ul{
+    color: #8A8A8A;
+}
+
 .detail-card-kanan{
     width: 35%;
+    height: 400px;
     box-shadow: 1px 1px 3px 1px grey;
     border-radius: 5px;
     padding: 15px;
+}
+
+.detail-card-kanan .detail-mobil{
+    width: 270px;
+    height: 160px;
+    border: 1px solid black;
+    padding-bottom: 160px;
+    padding-right: 270px;
+}
+
+.detail-card-kanan .detail-nama-mobil{
+    width: 200px;
+    height: 20px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 5px 0px;
+}
+
+.detail-card-kanan .detail-katagori-mobil{
+    width: 51px;
+    height: 14px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+    color: #8A8A8A;
+    padding-bottom: 100px;
+}
+
+.detail-card-kanan .detail-harga-mobil{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
 }
