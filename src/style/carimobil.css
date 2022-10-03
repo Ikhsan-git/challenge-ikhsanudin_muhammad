@@ -111,3 +111,92 @@
     background-color: #6bd46f !important;
     color: white !important;
 }
+
+@media only screen and (max-width: 600px){
+    .form .form-input{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .align{
+        width: 280px;
+        box-shadow: 1px 1px 5px 1px grey;
+        border-radius: 5px;
+        position: absolute;
+        top: 520px;
+        left: 57px;
+        background-color: white;
+        padding: 10px 0px;
+        padding: 10px;
+    }
+
+    .form .title-form{
+        display: none;
+    }
+
+    .form .search{
+        margin: 0 auto;
+        width: 90%;
+        height: 38px;
+        border: 1px solid rgb(196, 193, 193);
+        border-radius: 3px;
+        padding-left: 10px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 5px;
+    }
+    
+    .form .form-category{
+        margin: 0 auto;
+        width: 90%;
+        height: 40px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 5px;
+    }
+    
+    .form .form-price{
+        margin: 0 auto;
+        width: 90%;
+        height: 40px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 18px;
+        margin-top: 5px;
+    }
+    
+    .form .form-status{
+        margin: 0 auto;
+        width: 90%;
+        height: 40px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 5px;
+    }
+    
+    .form .form-button{
+        width: 30%;
+        height: 40px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        background-color: #5CB85F;
+        color: white;
+        border-radius: 2px;
+        margin-top: 5px;
+        margin-left: 12px;
+    }
+}
