@@ -17,9 +17,7 @@ const Faq =() =>{
                     <Dropdown.Toggle className='faq-dropdown-toogle' split variant="none" id="dropdown-split-basic" />
 
                     <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                        <Dropdown.Item href="#/action-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
 
@@ -29,9 +27,7 @@ const Faq =() =>{
                     <Dropdown.Toggle className='faq-dropdown-toogle' split variant="none" id="dropdown-split-basic" />
 
                     <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                        <Dropdown.Item href="#/action-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
 
@@ -41,9 +37,7 @@ const Faq =() =>{
                     <Dropdown.Toggle className='faq-dropdown-toogle' split variant="none" id="dropdown-split-basic" />
 
                     <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                        <Dropdown.Item href="#/action-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
 
@@ -53,9 +47,7 @@ const Faq =() =>{
                     <Dropdown.Toggle className='faq-dropdown-toogle' split variant="none" id="dropdown-split-basic" />
 
                     <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                        <Dropdown.Item href="#/action-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
 
@@ -65,9 +57,7 @@ const Faq =() =>{
                     <Dropdown.Toggle className='faq-dropdown-toogle' split variant="none" id="dropdown-split-basic" />
 
                     <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                        <Dropdown.Item href="#/action-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
             </div>
