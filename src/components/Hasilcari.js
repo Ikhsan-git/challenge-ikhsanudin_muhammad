@@ -44,15 +44,28 @@ const Appss = () =>{
         <div className="hasil-benner">
         </div>
         <div className='section-form'>
-    <div className="form">
-        <input name='mobil' type="text" placeholder='Search...' className='search' onChange={(e) => setQuery(e.target.value)} />
+        
+        <div className='align-hasil'>
+        <div className="form">
+          <p className='pencarian'>Pencarianmu</p>
+        <div className='title-form'>
+          <p>Nama Mobil</p>
+          <p>Katagori</p>
+          <p>Harga</p>
+          <p>Status</p>
+          <p className='clear'></p>
+        </div>
+        <div className='form-input'>
+        <input name='mobil' type="text" placeholder='Search...' className='search' onChange={(e) => setQuery(e.target.value)}/>
         <Select name='mobil'placeholder='Masukan Kapasitas Mobil' className='form-category' options={category}></Select>
         <Select name='mobil'placeholder='Masukan Harga Sewa per Hari' className='form-price' options={price}></Select>
         <Select name='mobil' placeholder='Disewa' className='form-status' options={status}></Select>
         <Button name='mobil' variant="none"className='form-button' onClick= {(e) => {e.preventDefault(window.location.href='/hasilcari')}}>Cari</Button>
         </div>
+        </div>
+        </div>
     </div>
-      <div>
+      <div className='hasil-cari'>
         {datas.filter((data) => {
           if (!data || !data.name) {
             return false;
@@ -60,14 +73,18 @@ const Appss = () =>{
             
             return data.name.toLowerCase().includes(query)
         }).map(data => (
-          <div key={data.id}>
-            <div>{data.name}</div>
-          <img src={data.image} alt="gambar" />
-          <div>{data.category}</div>
-          <div>{data.price}</div>
-          <button>test</button>
-          </div>
-      ))}
+            <div className='card-hasil-mobil'>
+            <div className='hasil-card' key={data.id}>
+              <img className='gambar-mobil' src={data.image} alt="gambar" />
+              <div className='nama-mobil'>{data.name}</div>
+              <div className='category-mobil'>{data.category}</div>
+              <div className='price-mobil'>Rp. {data.price} / Hari</div>
+              <div className='deskripsi-mobil'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+              <Button name='mobil' variant="none" className='button-mobil'>Pilih Mobil</Button>
+            </div> 
+            </div>
+          
+      ))} 
       </div>
     </div>
   );
