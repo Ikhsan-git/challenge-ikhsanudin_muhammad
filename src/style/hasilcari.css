@@ -1,5 +1,97 @@
 .hasil-benner{
     width: 100%;
-    height: 250px !important;
-    background-color: aqua;
+    height: 200px !important;
+    background-color: #F1F3FF;;
+}
+
+.align-hasil{
+    width: 1047px;
+    box-shadow: 1px 1px 5px 1px grey;
+    border-radius: 5px;
+    position: absolute;
+    top: 200px;
+    left: 148px;
+    background-color: white;
+    padding: 10px 0px;
+}
+
+.hasil-cari{
+    width: 1047px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.hasil-cari .card-hasil-mobil{
+    width: 333px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 3px 1px grey;
+    padding: 20px 10px;
+    
+}
+
+.hasil-cari .card-hasil-mobil .hasil-card{
+    width: 270px;
+    margin: 0 auto;
+}
+
+.hasil-cari .card-hasil-mobil .hasil-card .gambar-mobil{
+    width: 270px;
+    height: 160px;
+}
+
+.hasil-cari .card-hasil-mobil .hasil-card .nama-mobil{
+    width: 285px;
+    height: 20px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.hasil-cari .card-hasil-mobil .hasil-card .category-mobil{
+    width: 285px;
+    height: 20px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0;
+}
+
+.hasil-cari .card-hasil-mobil .hasil-card .price-mobil{
+    width: 285px;
+    height: 24px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 10px 0;
+}
+
+.hasil-cari .card-hasil-mobil .hasil-card .deskripsi-mobil{
+    width: 301px;
+    height: 60px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0;
+}
+
+
+.button-mobil{
+    width: 100%;
+    background-color: #5CB85F !important;
+    border: none;
+    color: white !important;
 }
